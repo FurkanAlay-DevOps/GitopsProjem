@@ -27,7 +27,11 @@ terraform {
   }
 
   backend "s3" {
+<<<<<<< HEAD
     bucket = "gitopsterrastate"
+=======
+    bucket = "vprofile7234"
+>>>>>>> stage
     key    = "terraform.tfstate"
     region = "us-east-2"
   }

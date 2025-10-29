@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to My Project!  
 By following the steps below, you can run the project on your local machine. Good luck!
 
@@ -430,3 +431,20 @@ terraform destroy
 ```
 After typing terraform destroy, type yes when prompted.
 Wait about 15-20 minutes for all resources to be fully removed.
+=======
+# Terraform code 
+
+## Maintain vpc & eks with terraform for vprofile project
+
+## Tools required
+Terraform version 1.6.3
+
+### Steps
+* terraform init
+* terraform fmt -check
+* terraform validate
+* terraform plan -out planfile
+* terraform apply -auto-approve -input=false -parallelism=1 planfile
+####
+#####
+>>>>>>> stage
